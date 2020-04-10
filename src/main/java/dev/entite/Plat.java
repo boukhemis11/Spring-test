@@ -43,4 +43,11 @@ public class Plat {
     public int hashCode() {
         return Objects.hash(nom);
     }
+
+	@Override
+	public String toString() {
+		return "Plat [nom=" + nom + ", prixEnCentimesEuros=" + prixEnCentimesEuros + "]";
+	}
+    
+    
 }
